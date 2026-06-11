@@ -8,4 +8,6 @@
     <string name="no_account_text">¿No tienes cuenta?</string>
     <string name="signup_title">Crear Cuenta</string>
     <string name="signup_button_text">Registrarse</string>
+    <string name="profile_title">Jugador</string>
+    <string name="last_connection_label">Última conexión:</string>
 </resources>
