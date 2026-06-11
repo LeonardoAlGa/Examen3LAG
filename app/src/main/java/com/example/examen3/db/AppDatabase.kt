@@ -7,8 +7,8 @@ import com.example.examen3.converters.Converters
 import com.example.examen3.dao.UsuarioDao
 import com.example.examen3.model.Usuario
 
-@Database(entities = [Usuario::class], version= 1)
+@Database(entities = [Usuario::class], version = 5)
 @TypeConverters(Converters::class)
-abstract class AppDatabase: RoomDatabase() {
+abstract class AppDatabase : RoomDatabase() {
     abstract fun usuarioDao(): UsuarioDao
 }

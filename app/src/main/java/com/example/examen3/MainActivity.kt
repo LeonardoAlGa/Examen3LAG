@@ -53,6 +53,7 @@ class MainActivity : AppCompatActivity() {
             if (usuario != null && usuario.password == contrasena) {
                 Toast.makeText(this@MainActivity, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show()
                 val intent = Intent(this@MainActivity, ProfileActivity::class.java)
+                intent.putExtra("USERNAME", nombre)
                 startActivity(intent)
             } else {
                 Toast.makeText(this@MainActivity, "Usuario o contraseña incorrectos", Toast.LENGTH_SHORT).show()

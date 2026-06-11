@@ -10,4 +10,5 @@
     <string name="signup_button_text">Registrarse</string>
     <string name="profile_title">Jugador</string>
     <string name="last_connection_label">Última conexión:</string>
+    <string name="first_connection">Primera conexión</string>
 </resources>
