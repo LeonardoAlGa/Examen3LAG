@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Examen3</string>
+    <string name="welcome_message">Bienvenid@</string>
+    <string name="username_hint">Nombre de usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button_text">Iniciar sesión</string>
+    <string name="register_button_text">Registrar</string>
+    <string name="no_account_text">¿No tienes cuenta?</string>
 </resources>
